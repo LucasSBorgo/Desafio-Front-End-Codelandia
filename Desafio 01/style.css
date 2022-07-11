@@ -1,0 +1,55 @@
+.app-bar {
+    position: absolute;
+    width: 1440px;
+    height: 250px;
+    background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+    left: 0px;
+    top: 0px;
+}
+
+#app-bar-text-1, #app-bar-text-2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 41px;
+    padding-bottom: 179px;
+    font-family: Lexend Deca;
+    font-size: 24px;
+    font-style: Regular;
+    color: #FFFFFF;
+}
+
+#app-bar-text-1 {
+    float: left;
+    padding-left: 269px;
+}
+
+#app-bar-text-2 {
+    float: right;
+    padding-right: 270px;
+}
+
+#search-bar-01 {
+    position: absolute;
+    width: 900px;
+    height: 65px;
+    border: 0px;
+    border-radius: 5px;
+    top: 144px;
+    left: 270px;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-image: url(img/icons8-search-50.png);
+    background-repeat: no-repeat;
+    background-size: 23.44px;
+    background-position: 21.28px;
+}
+
+
+
+::placeholder {
+    padding-left: 64px;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 50%;
+}
